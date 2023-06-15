@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto+Condensed:ital@1&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    color: #000000c4;
+    text-align: center;
+}
+
+.card {
+
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 2px solid #888;
+    width: 50%;
+    height: 424px;
+    align-items: center;
+}
+
+.container {
+    padding: 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+    /* border: 1px solid black;
+    text-align: center;
+    width: 22%;
+    height: 270px;
+    background: #e2d8d8; */
+}
+
+input[type=email],
+input[type=password] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+hr {
+    border: 1px solid #9e9999;
+    margin-bottom: 25px;
+}

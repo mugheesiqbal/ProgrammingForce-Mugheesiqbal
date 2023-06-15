@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    display: flexbox;
+    height: 95%;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    display: flexbox;
+    height: 95%;
+    align-items: center;
+    background-color:antiquewhite;
+}
+h3{
+    text-align: center;
+}

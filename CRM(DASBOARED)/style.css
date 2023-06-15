@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #e5e7eb;
+    position: relative;
+    display: flex;
+}
+#menu{
+    background:burlywood;
+    width: 300px;
+    height:100%;
+}
+#menu h2{
+    text-align: center;
+}
+#menu .items{
+   margin-top: 10px;
+}
+#menu .items li{ 
+   list-style: none;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   transition: 0.3s ease;
+}
+#menu .items li:nth-child(1){
+   border-left: 4px solid white;
+}
+#menu .items li:hover{ 
+  opacity: 0.75;
+  background-color: rgb(21, 22, 22);
+  cursor: pointer;
+}
+#menu .items li i{
+    color: rgba(red, green, blue, alpha);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
+}
+#menu .items li:hover i,
+#menu .items li:hover a
+{
+    color: #f3f4f6;
+}
+#menu .items li:hover i{
+    color: #f3f4f6;
+}
+#menu .items li i{
+  color: #202122;
+}
+#menu .items li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+#interface{
+    width: 100%;
+
+    
+}
+#interface .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 30px;
+    border-bottom  : 3px solid #594ef7;
+
+}
+#interface .nav .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#interface .nav .search i{
+    margin-right: 14px;
+}
+#interface .nav .search input{
+    outline: none; 
+    border: none;
+    font-size: 14px;
+}
+#interface .nav .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#interface .nav .profile i{
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+ 
+}
+
+#interface .nav .profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    color:#202122;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.value{
+    padding: 30px 30px 0 30px; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display:inline-block; 
+    
+
+}
+.value .val-box{
+    background: white;
+    width: 210px;
+    padding: 14px 20px;
+    border-radius: 5px;
+    display: flex;
+    content: flex-start;
+    align-items: center; 
+  
+     
+}
+.value .val-box i{
+    font-size:25px ;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;  
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-color: rgb(190, 161, 125);
+    margin-right: 15px;
+    
+}
+.value .val-box:nth-child(1) i{
+    background: #594ef7;
+}
+.value .val-box:nth-child(2) i{
+    background:burlywood;
+}
+.value .val-box:nth-child(3) i{
+    background:coral;
+}
+.value .val-box:nth-child(4) i{
+    background:darkgray;
+}
+.value .val-box h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.value .val-box span{
+    font-size: 15px;
+    color:darkgray;
+} 
